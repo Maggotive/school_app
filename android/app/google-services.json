@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "760804320276",
+    "project_id": "playgroup-pals",
+    "storage_bucket": "playgroup-pals.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760804320276:android:dfc84eb801137e9d95b301",
+        "android_client_info": {
+          "package_name": "com.example.playgroup_pals"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZnTcF7CVEmCXJRXkYgMWWpLGAmcLK15U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

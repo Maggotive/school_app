@@ -1,0 +1,75 @@
+name: playgroup_pals
+description: A new Flutter project for managing a playgroup.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0' # Updated to a more modern SDK range
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.7.0
+  cloud_firestore: ^5.6.12
+  firebase_storage: ^12.4.1
+  google_fonts: ^6.3.0
+
+  # Excel Export
+  excel: ^4.0.6
+
+  # File System and Sharing
+  path_provider: ^2.1.5
+  share_plus: ^11.0.0
+  file_saver: ^0.3.1 # ADDED for saving files
+  permission_handler: ^12.0.1 # ADDED for Android permissions
+  url_launcher: ^6.3.2
+  flutter_contacts: ^1.1.9+2
+  flutter_launcher_icons: ^0.14.4
+  uuid: ^4.5.1
+  file_picker: ^10.2.0
+  http: ^1.4.0
+  webview_flutter: ^4.13.0
+  webview_windows: ^0.4.0
+
+
+
+  # PDF
+  pdf: ^3.11.3 # ADDED for creating PDF documents
+  printing: ^5.14.2 # ADDED for sharing/printing PDFs
+
+  # Image Picking
+  image_picker: ^1.1.2 # ADDED for logo upload
+
+  # Date Formatting
+  intl: ^0.20.2
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Bold.ttf
+
+flutter_launcher_icons:
+  android: "launcher_icon" 
+  ios: true
+  image_path: "assets/icon.png" 
+  min_sdk_android: 21 
